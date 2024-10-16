@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('slick-carousel/slick/slick.css');
+@import url('slick-carousel/slick/slick-theme.css');
+@import url('@fontsource/roboto/300.css');
+@import url('@fontsource/roboto/400.css');
+@import url('@fontsource/roboto/500.css');
+@import url('@fontsource/roboto/700.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*::after,
+*,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+section {
+    max-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0 auto;
+    /* padding-left: 35px;
+  padding-right: 35px; */
+}
+
+.MuiButtonBase-root.MuiAccordionSummary-root.Mui-expanded {
+    background-color: rgb(243, 189, 28);
+}

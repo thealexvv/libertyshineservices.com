@@ -1,0 +1,58 @@
+.background {
+    max-width: 100%;
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+    margin: 0 auto;
+    background-image: url('../../images/background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.backgroundLayer {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.663);
+    padding: 75px 0px;
+}
+
+.sectionContent {
+    text-align: center;
+    margin-top: 140px;
+}
+
+
+/* .sectionContent h1 {
+  font-size: 32px;
+  font-weight: 500;
+} */
+
+.buttonsContainer {
+    margin-top: 120px;
+    gap: 15px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.button:hover {
+    transition: all ease-in 0.3s;
+    background-color: #ffffffc9;
+    color: #111;
+}
+
+.buttonPrimary {
+    background-color: #fff;
+    color: #111;
+}
+
+.buttonPrimary:hover {
+    background-color: #111111af;
+    color: #fff;
+}
